@@ -1,0 +1,56 @@
+.slider-section {
+  height: 350px;
+}
+.slider-section .slider {
+  border-radius: 5px;
+}
+.slider-section .slider img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.slider-section .slider .slick-arrow {
+  font-size: 20px;
+}
+.slider-section .slider .slick-arrow::before {
+  font-size: 30px;
+}
+.slider-section .slider .slick-next {
+  right: 30px;
+}
+.slider-section .slider .slick-prev {
+  left: 30px;
+  z-index: 1;
+}
+.slider-section .slider .slick-dots {
+  bottom: 10px;
+}
+.slider-section .slider .slick-dots button::before {
+  font-size: 18px;
+  color: #fff;
+}
+
+.img-section .card {
+  border: none;
+}
+.img-section a {
+  display: block;
+}
+.img-section a img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.fav-btn {
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

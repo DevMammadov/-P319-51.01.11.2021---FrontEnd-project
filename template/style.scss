@@ -1,0 +1,58 @@
+.slider-section {
+  height: 350px;
+  .slider {
+    border-radius: 5px;
+    img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .slick-arrow {
+      &::before {
+        font-size: 30px;
+      }
+      font-size: 20px;
+    }
+    .slick-next {
+      right: 30px;
+    }
+    .slick-prev {
+      left: 30px;
+      z-index: 1;
+    }
+    .slick-dots {
+      bottom: 10px;
+      button {
+        &::before {
+          font-size: 18px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.img-section {
+  .card {
+    border: none;
+  }
+  a {
+    display: block;
+    img {
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  }
+}
+
+.fav-btn {
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
